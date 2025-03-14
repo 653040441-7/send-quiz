@@ -1,20 +1,36 @@
 # XO website 
- XO Website สามารถกำหนด โดยขนาดของตารางXO  เป็นขนาดใด ๆ ก็ได้ที่มากกว่า 3x3 มีการเก็บประวัติการเล่น เขียนโดยใช้ Vue 3 + TypeScript + Vite ชื่อไฟล์ว่า Test.vue
+ XO Website สามารถกำหนดขนาดของตารางXO  เป็นขนาดใด ๆ ก็ได้ที่มากกว่า 3x3 มีการเก็บประวัติการเล่น เขียนโดยใช้ Vue 3 + TypeScript + Vite ชื่อไฟล์ว่า Test.vue
  > path ของ file ที่เขียน  send-quiz/src/components/Test.vue
 ## วิธีการ set up
 
+การ download 
+
     git clone https://github.com/653040441-7/send-quiz.git
+การ set up vite
+
+    npm install -g vite
+
+การ set up vue
+
     npm install vue @vue/compiler-sfc
     npm install -D @types/vue
+การ set up tailwind
+ 
     npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 ## วิธีการ run program
+ไปที่โฟลเดอร์ชื่อ send-quiz หรือเปิดโฟลเดอร์ผ่านโปรแกรม vs code 
+ 
 
-    cd send-quiz
-    npm run dev
+      cd send-quiz
+    
+  ใน terminal รันคำสั่ง
+ 
 
-> หากไม่สามารถ run ได้ใน terminal ใน vs code ให้รันที่ command prompt โดยตรง
+       npm run dev
 
+> หากไม่สามารถ run ได้ใน terminal ของ vs code แนะนำให้รันที่ command prompt โดยตรง
 
+จากนั้นกดลิ้งเพื่อไปยังหน้าเว็ปไซต์
 
   ##  วิธีการออกแบบโปรแกรม
 link figma : [draft tic-tac-toe](https://www.figma.com/design/0ggtmr9kXpAcqZgf8oRxmA/draft-tic-tac-toe?node-id=0-1&t=R1wp8nxPWu4w8BTD-1)
