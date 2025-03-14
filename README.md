@@ -1,6 +1,6 @@
 # XO website 
  XO Website สามารถกำหนดขนาดของตารางXO  เป็นขนาดใด ๆ ก็ได้ที่มากกว่า 3x3 มีการเก็บประวัติการเล่น เขียนโดยใช้ Vue 3 + TypeScript + Vite ชื่อไฟล์ว่า Test.vue
- > path ของ file ที่เขียน  send-quiz/src/components/Test.vue
+ > path ของ file ที่เขียน  send-quiz/src/Test.vue
 ## วิธีการ set up
 
 การ download 
